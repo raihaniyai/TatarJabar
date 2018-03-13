@@ -1,0 +1,52 @@
+@font-face {
+  font-family: judul;
+  src: url(../font/BebasNeue.otf);
+}
+@font-face {
+  font-family: menubar;
+  src: url(../font/OpenSans-Regular.ttf);
+}
+html{
+  height: 100%;
+}
+body{
+  background: linear-gradient(180deg, #d81e28 60%, #ececec 40%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a{
+  color: white;
+}
+li a{
+  font-family: menubar;
+  color: #ffffff;
+}
+li a:hover{
+  font-weight: bold;
+  background: #ececec;
+  color: #d81e28;
+}
+hr{
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.judul{
+  font-family: judul;
+  color: #ececec;
+  font-size: 70px;
+  margin: 5px 0 0 0;
+}
+.navbar{
+  padding: 0 0.5rem;
+}
